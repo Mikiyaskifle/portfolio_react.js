@@ -1,0 +1,201 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container {
+    height: 80vh;
+    /* border: 1px solid red; */
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+/*  */
+
+.myname {
+    padding: 110px; /* Inner spacing */
+    background-color: #9e9d9d; /* Background color */
+    border-radius: 3px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.myname:hover {
+    
+    transform: scale(1.05); 
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px black; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Start slightly above */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at original position */
+    }
+}
+
+.animated-heading {
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+.myname h1 {
+    margin-top: 20px; /* Top margin for h1 */
+    animation: fadeIn 3s ease-in-out; /* Apply animation to h1 */
+}
+
+.myname h2 {
+    animation: fadeIn 3s ease-in-out 0.5s; /* Delay for h2 to animate after h1 */
+}
+
+
+
+
+
+
+.mypicture {
+    width: 500px;
+    height: 100%;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation */
+}
+
+.mypicture img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Maintains aspect ratio */
+}
+
+.mypicture {
+    flex-shrink: 0; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mypicture:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px black; 
+    border-radius: 15px;
+}
+
+.mk {
+    width: 300px; 
+    border-radius: 10px; 
+}
+
+
+.butttons {
+   border: blue solid 10px;
+   background-color: black;
+    color:white;
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 20px; /* Add horizontal padding */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Curved edges */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Adjust font size as needed */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.butttons:hover {
+  color: white;
+  background-color: black;
+    transform: scale(1.09); 
+    box-shadow: 0 10px 16px whitesmoke; 
+}
+
+
+
+
+
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .myname {
+    width: 100%; /* Full width on small screens */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .mypicture {
+    width: 100%; /* Full width on small screens */
+    margin-top: 7px; /* Add margin for spacing */
+  }
+
+  .butttons {
+    width:20%; /* Full width button */
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+    .container {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Adjust padding */
+  }
+  .myname h1 {
+    font-size: 1em; /* Reduce font size */
+  }
+
+  .myname h2 {
+    font-size: 1em; /* Reduce font size */
+  }
+
+  .butttons {
+    padding: 6px 10px; /* Adjust button padding */
+  }
+
+  .mk {
+    width: 90%; /* Adjust image size */
+  }
+}
+
+@media (max-width: 300px){
+    .container {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Adjust padding */
+  }
+     .myname h1 {
+    font-size: 0.7em; /* Reduce font size */
+  }
+
+  .myname h2 {
+    font-size: 0.9em; /* Reduce font size */
+  }
+
+  .butttons {
+    padding: 4px 8px; /* Adjust button padding */
+  }
+.mypicture {
+    width: 40%; /* Full width on small screens */
+    margin-top: 5px; /* Add margin for spacing */
+  }
+
+  .mk {
+    width: 70%; /* Adjust image size */
+  }
+}
+

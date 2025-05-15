@@ -1,0 +1,21 @@
+.Portfoilss{
+    background-color:transparent;
+    /* border: 1px solid red; */
+    height: 45vh;
+    width:100%;
+
+}
+.Portfoilss h3{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 40%;
+  
+
+
+}
+
+.Portfoilss p{
+    font-size: 20px;
+    margin-left:25% ;
+}

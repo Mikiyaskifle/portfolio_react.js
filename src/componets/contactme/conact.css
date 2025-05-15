@@ -1,0 +1,64 @@
+.contacts {
+    background-color: transparent;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.naming input,
+.em input,
+.mess textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 2%;
+    font-size: 16px;
+}
+
+.mess textarea {
+    width: 60%;
+    height: 200px;
+}
+
+button {
+    border: blue solid 10px;
+   background-color: black;
+    color:white;
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 20px; /* Add horizontal padding */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Curved edges */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Adjust font size as needed */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #1e291f; /* Darker green */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .naming input,
+    .em input,
+    .mess textarea {
+        width: 60%; /* Full width on smaller screens */
+        height:auto;
+    }
+}
+@media (width: 300px){
+    .naming input,
+    .em input,
+    .mess textarea {
+        width: 20%; /* Full width on smaller screens */
+       
+    }
+
+}

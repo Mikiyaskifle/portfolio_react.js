@@ -1,0 +1,23 @@
+.recomm{
+    background-color: transparent;
+    /* border: 2px solid red; */
+    height: 45vh;
+    margin-top: 7%;
+}
+
+.recomm h{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+    margin-left: 40%;
+
+}
+
+.recomm  p{
+  margin-left: 31%;
+  /* border: 1px solid red; */
+
+ margin-top: 2%;
+
+}

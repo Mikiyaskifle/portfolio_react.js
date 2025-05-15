@@ -1,0 +1,98 @@
+.maincert{
+     background-color: transparent;
+   
+    height: 95vh;
+    width: 100%;
+    /* margin-left: 3%; */
+
+}
+
+.submina{
+    
+     display: flex;
+     flex-direction: row;
+     width: fit-content;
+     /* margin-bottom: 0%;
+     margin-top: 0%;
+     margin: 1%; */
+     
+     margin-left: 3%;
+    background-color: #9e9d9d;
+    padding-top: 1%;
+     
+     height: 30%;
+     border-bottom: 
+
+}
+
+.subsubdiv{
+    padding: 12px;
+     /* margin-left: 3%; */
+    /* border: 1px solid green; */
+    
+}
+
+
+
+.subsubdiv h{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    
+     /* border: 1px solid green; */
+}
+
+.stude{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+.stude h2{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    /* border: 1px solid green; */
+
+    
+
+}
+.stude span{
+    /* border: 1px solid green; */
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 13px;
+    height: fit-content;
+    background-color: yellow;
+    
+}
+
+
+
+
+.webtrain{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+
+    /* border: 1px solid green; */
+}
+.webtrain h{
+    margin-left: 25%;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.webtrain p{
+    margin-left: 5px;
+    
+
+}
+.submina:hover {
+  color: black;
+    transform: scale(1.03); 
+    box-shadow: 0 10px 16px black; 
+}

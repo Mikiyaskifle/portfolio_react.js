@@ -1,0 +1,110 @@
+.allcontainer {
+    height: auto; /* Adjusted height for better flexibility */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Added padding for better spacing */
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+.suppercona, .subcontain {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contain, .contains {
+    width: calc(30% - 20px); /* Adjusted width for responsiveness */
+    border-radius: 10px;
+    background-color: #9e9d9d;
+    padding: 3%;
+    margin: 10px;
+    text-align: center; /* Center text */
+}
+
+.contain img, .contains img {
+    margin: 0 auto; /* Center images */
+}
+.contains img {
+    margin-bottom: 20px;
+    margin-left: 90px; /* Center images */
+     border: 1px solid red;
+}
+
+.contain h, .contains h {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0;
+    border: 1px solid red;
+}
+.contains h {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    border: 1px solid red;
+}
+
+.contain p{
+    font-size: 17px;
+    margin: 10px 0;
+}
+.contains h {
+    font-size: 17px;
+    margin-right: 100px;
+    
+}
+
+.contain:hover, .contains:hover {
+    box-shadow: 0 10px 16px black; 
+    transform: scale(1.05); 
+}
+
+@media (max-width: 768px) {
+    .contain, .contains {
+        width: calc(45% - 20px); 
+    }
+
+    .suppercona, .subcontain {
+        flex-direction: column; 
+        align-items: center;
+        padding: 5%; 
+    }
+
+    img {
+        height: 40px; 
+        width: 40px;
+    }
+
+    .contain h, .contains h {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .contain, .contains {
+        width: 80%; 
+    }
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .contain h, .contains h {
+        font-size: 1.2em; 
+    }
+
+    .contain p, .contains p {
+        font-size: 0.9em; 
+    }
+}

@@ -1,0 +1,48 @@
+.myserv {
+    background-color: transparent;
+    width: 100%;
+    height: auto; /* Use auto for responsive height */
+    padding: 20px; /* Added padding for spacing */
+    margin-top: 40px; /* Added margin to separate from the previous component */
+    text-align: center; /* Center text */
+}
+
+.you {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0; /* Adjusted margins for better spacing */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.youuo {
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif; /* Adjusted margins for better spacing */
+}
+
+.youuo span {
+    display: block; /* Stack spans vertically */
+    margin-top: 10px; /* Space between spans */
+}
+
+.myserv:hover {
+    transform: scale(1.01); 
+    /* box-shadow: 0 10px 16px rgb(37, 37, 37);  */ /* Uncomment if needed */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .myserv {
+        display: none; /* Hide the component on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .you {
+        font-size: 24px; /* Smaller font size for mobile */
+    }
+
+    .youuo {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+}

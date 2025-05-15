@@ -1,0 +1,50 @@
+.amez{
+    background-color: transparent;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 100%;
+
+}
+
+.components{
+    height:80%;
+    width: 30%;
+    margin-left:2%;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 0.5%;
+    background-color: #9e9d9d;
+
+    /* border: 1px solid red; */
+}
+.components:hover {
+  
+    transform: scale(1.09); 
+    box-shadow: 0 10px 16px black; 
+}
+.components h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.how{
+    display: flex;
+    flex-direction: row;
+
+}
+.mkk{
+    height: 100px;
+    width:120px;
+    border-radius: 50%;
+    margin: 2%;
+}
+.loo{
+    /* border: 1px solid red; */
+    
+
+}
+.loo h{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}

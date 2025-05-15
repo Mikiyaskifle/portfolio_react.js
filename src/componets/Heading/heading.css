@@ -1,0 +1,18 @@
+.allheader{
+
+    /* border: 1px solid red; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    font-size: 10px;
+    background:#0e0e0e ;
+    color:whitesmoke;
+}
+.icons{
+    cursor: pointer;
+
+    
+}
